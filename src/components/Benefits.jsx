@@ -14,7 +14,7 @@ const Benefits = () => {
           className="md:max-w-md lg:max-w-2xl"
           title="Chat Smarter, Not Harder with Brainwave"
         />
-        <div className="flex flex-wrap gap-10 mb-10">
+        <div className="flex flex-wrap justify-center gap-10 mb-10">
           {benefits.map((benefit) => (
             <div
               key={benefit.id}
@@ -24,7 +24,7 @@ const Benefits = () => {
               }}
             >
               <div className="relative z-2 flex flex-col min-h-[22rem] h-full p-[2.4rem] pointer-events-none">
-                <h5 className="h2 mb-5">{benefit.title}</h5>
+                <h5 className="h5 mb-5">{benefit.title}</h5>
                 <p className="body-2 mb-6 text-n-3">{benefit.text}</p>
                 <div className="flex items-center mt-auto">
                   <img
